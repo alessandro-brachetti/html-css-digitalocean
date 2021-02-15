@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FONT */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* UTILITIES */
+.text-blue {
+  color: color: rgb(3, 27, 78);
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.text-lightblue {
+  color: #BBCDFF;
+}
+
+.pt-1 {
+  padding-top: 1em;
+}
+
+/* HEADER */
+/* NAVBAR */
+.navbar {
+  background-image: none;
+  background-color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.navbar.navbar-default {
+  border-bottom: 1px solid black;
+}
+
+.navbar-default {
+  padding: 10px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  padding: 7px;
+}
+
+.navbar-brand img{
+  height: 30px;
+}
+
+.navbar-default .navbar-nav>li>a  {
+  color: rgb(3, 27, 78);
+}
+
+.navbar-left {
+  margin-left: 100px;
+}
+
+.btn-primary-outlined {
+  border: 1px solid #006aff;
+  color: #006aff;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+/* JUMBO */
+#jumbo {
+  /* height: 400px; */
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+}
+
+#jumbo h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+#jumbo p {
+  font-size: 20px;
+  font-weight: 500;
+}
+form {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 15px 15px;
+  margin: 30px 0;
+}
+
+form .btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+form h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #031C4E;
+}
+
+form h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #006AFF;
+}
